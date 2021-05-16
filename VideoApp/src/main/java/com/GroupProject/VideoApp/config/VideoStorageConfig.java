@@ -26,7 +26,7 @@ public class VideoStorageConfig {
 
     @Bean
     public AmazonS3 generateS3client() {
-        AWSCredentials credentials = new BasicAWSCredentials(accessKey, accessSecret);
+        AWSCredentials credentials = new BasicAWSCredentials(System.getenv("S3_KEY"), System.getenv("S3_SECRET"));
         return AmazonS3ClientBuilder
                 .standard()
                 .withCredentials(new AWSStaticCredentialsProvider(credentials))
