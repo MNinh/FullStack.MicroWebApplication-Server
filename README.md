@@ -39,9 +39,9 @@
     * login into account via auth0
     * make an account via auth0
 
-# Developmental Notes
+## Developmental Notes
 
-## Tech Stack
+### Tech Stack
 * **UML Diagram** - PlantUML
 * **Wireframe** - Mockflow
 * **Visual UI/Front end** - Reactjs
@@ -49,17 +49,17 @@
 * **Data Layer** - MySQL hosted with AWS RDS
 * **Cloud** - Backend logic hosted by Heroku. Frontend hosted with AWS Amplify. AWS S3 buckets for video storage.
 
-## Installation
+### Installation
 #### Back End
 * Use Spring Initializer to create an starting point for you application
 * Project Lombok
-* AWS S3
+* AWS S3 Access Keys
 
 #### Front End
 * `npm install` for React
 * import React-Bootstrap, auth0-react, react-router-don, react-promist-tracker, emailjs-com
 
-## Running the Application
+### Running the Application
 #### Back End
 * You can run back-end by running the VideoAppApplication.java from: com/GroupProject/VideoApp/VideoAppApplication.java
 
